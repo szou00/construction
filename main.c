@@ -6,9 +6,11 @@ int main() {
 
   char a[] = "banana";
   char *ap = a;
-  struct fruit as = createStruct(1,a);
+  struct fruit as = createStruct();
   struct fruit *asp = &as;
+  printf("%s\n", "Welcome to the store!");
   printStruct(asp);
+  printf("%s\n", "Modifying your item...");
   modifyStruct(asp, 2, a);
   printStruct(asp);
 

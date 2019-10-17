@@ -3,6 +3,6 @@ struct fruit {
   char *name;
 };
 
-struct fruit createStruct(int p, char *n);
+struct fruit createStruct();
 void printStruct(struct fruit *f);
 void modifyStruct(struct fruit *f, int p, char *n);
