@@ -7,10 +7,11 @@
 //in the functions.h file
 
 //Write a function that returns an example of your struct when run. This should not return the same values every time.
+
 struct fruit createStruct() {
 
   char* names[] = { "banana", "strawberry", "melon", "kiwi", "dragonfruit"};
-  int prices[] = { 1, 2, 3, 4 };
+  int prices[] = { 1, 2, 3, 4, 5 };
 
   struct fruit fruity;
   srand(time(NULL));

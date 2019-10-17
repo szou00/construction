@@ -10,7 +10,7 @@ int main() {
   struct fruit *asp = &as;
   printf("%s\n", "Welcome to the store!");
   printStruct(asp);
-  printf("%s\n", "Modifying your item...");
+  printf("%s\n", "Modifying your item to banana:");
   modifyStruct(asp, 2, a);
   printStruct(asp);
 
